@@ -32,8 +32,8 @@ export function AiCapabilitiesSection() {
               </div>
 
               <div className="flex items-start space-x-3">
-                <div className="w-6 h-6 bg-accent rounded-full flex items-center justify-center mt-1">
-                  <span className="text-accent-foreground text-sm">✓</span>
+                <div className="w-6 h-6 bg-blue-500 rounded-full flex items-center justify-center mt-1">
+                  <span className="text-white text-sm">✓</span>
                 </div>
                 <div>
                   <h3 className="font-semibold text-card-foreground">
@@ -46,7 +46,7 @@ export function AiCapabilitiesSection() {
               </div>
 
               <div className="flex items-start space-x-3">
-                <div className="w-6 h-6 bg-chart-4 rounded-full flex items-center justify-center mt-1">
+                <div className="w-6 h-6 bg-blue-600 rounded-full flex items-center justify-center mt-1">
                   <span className="text-white text-sm">✓</span>
                 </div>
                 <div>
@@ -69,8 +69,8 @@ export function AiCapabilitiesSection() {
             <Card className="border-gray-200 shadow-xl bg-white">
               <CardContent className="p-8">
                 <div className="space-y-6">
-                  <div className="flex items-center space-x-4 p-4 bg-cyan-50 rounded-lg">
-                    <div className="w-10 h-10 bg-cyan-500 rounded-full flex items-center justify-center">
+                  <div className="flex items-center space-x-4 p-4 bg-blue-50 rounded-lg">
+                    <div className="w-10 h-10 bg-blue-500 rounded-full flex items-center justify-center">
                       <span className="text-white text-sm">AI</span>
                     </div>
                     <div>
@@ -83,8 +83,8 @@ export function AiCapabilitiesSection() {
                     </div>
                   </div>
 
-                  <div className="flex items-center space-x-4 p-4 bg-pink-50 rounded-lg">
-                    <div className="w-10 h-10 bg-pink-500 rounded-full flex items-center justify-center">
+                  <div className="flex items-center space-x-4 p-4 bg-blue-100 rounded-lg">
+                    <div className="w-10 h-10 bg-blue-600 rounded-full flex items-center justify-center">
                       <span className="text-white text-sm">📍</span>
                     </div>
                     <div>

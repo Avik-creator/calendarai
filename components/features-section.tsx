@@ -21,14 +21,14 @@ export function FeaturesSection() {
       description:
         "Seamlessly integrates with your existing Google Calendar without disrupting your workflow.",
       icon: "📅",
-      color: "bg-accent/10 text-accent",
+      color: "bg-blue-100 text-blue-600",
     },
     {
       title: "Intelligent Suggestions",
       description:
         "Get smart recommendations for meeting locations, durations, and optimal scheduling times.",
       icon: "💡",
-      color: "bg-chart-3/50 text-chart-3",
+      color: "bg-blue-50 text-blue-700",
     },
   ];
 
@@ -48,7 +48,7 @@ export function FeaturesSection() {
         <div className="grid md:grid-cols-3 gap-8">
           {features.map((feature, index) => (
             <Card
-              key={index}
+              key={`${index}-${feature.title}`}
               className="border-border hover:shadow-lg transition-shadow"
             >
               <CardHeader>
@@ -65,7 +65,7 @@ export function FeaturesSection() {
                 <CardDescription className="text-muted-foreground mb-4 leading-relaxed">
                   {feature.description}
                 </CardDescription>
-                <Button variant="link" className="text-primary p-0 h-auto">
+                <Button variant="link" className="text-blue-600 p-0 h-auto">
                   Learn More →
                 </Button>
               </CardContent>

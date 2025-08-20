@@ -18,7 +18,7 @@ export function HeroSection() {
           <Link href="/signin">
             <Button
               size="lg"
-              className="bg-accent hover:bg-accent/90 text-accent-foreground px-8 py-3 text-lg"
+              className="bg-primary hover:bg-primary/90 text-primary-foreground px-8 py-3 text-lg"
             >
               Get Started Free
             </Button>
@@ -26,15 +26,15 @@ export function HeroSection() {
           <Button
             variant="outline"
             size="lg"
-            className="px-8 py-3 text-lg bg-transparent"
+            className="px-8 py-3 text-lg bg-transparent border-primary text-primary hover:bg-primary hover:text-primary-foreground"
           >
             Watch Demo
           </Button>
         </div>
 
         <div className="mt-16 grid md:grid-cols-3 gap-6 max-w-4xl mx-auto">
-          <div className="p-6 bg-cyan-50 rounded-lg border border-cyan-200">
-            <div className="w-12 h-12 bg-cyan-500 rounded-lg flex items-center justify-center mx-auto mb-4">
+          <div className="p-6 bg-blue-50 rounded-lg border border-blue-200">
+            <div className="w-12 h-12 bg-blue-500 rounded-lg flex items-center justify-center mx-auto mb-4">
               <span className="text-white text-xl">🤖</span>
             </div>
             <h3 className="font-semibold text-gray-900 mb-2">AI-Powered</h3>
@@ -43,8 +43,8 @@ export function HeroSection() {
             </p>
           </div>
 
-          <div className="p-6 bg-pink-50 rounded-lg border border-pink-200">
-            <div className="w-12 h-12 bg-pink-500 rounded-lg flex items-center justify-center mx-auto mb-4">
+          <div className="p-6 bg-blue-100 rounded-lg border border-blue-300">
+            <div className="w-12 h-12 bg-blue-600 rounded-lg flex items-center justify-center mx-auto mb-4">
               <span className="text-white text-xl">📅</span>
             </div>
             <h3 className="font-semibold text-gray-900 mb-2">Google Sync</h3>
