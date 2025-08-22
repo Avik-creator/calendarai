@@ -40,22 +40,26 @@ The AI assistant can help you with:
 ### Installation
 
 1. Clone the repository:
+
 ```bash
 git clone <repository-url>
 cd calendarai
 ```
 
 2. Install dependencies:
+
 ```bash
 bun install
 ```
 
 3. Set up environment variables:
+
 ```bash
 cp .env.example .env.local
 ```
 
 Fill in your environment variables:
+
 ```env
 # Database
 DATABASE_URL=your_postgres_connection_string
@@ -69,12 +73,14 @@ AUTH_SECRET=your_auth_secret
 ```
 
 4. Set up the database:
+
 ```bash
 bun run db:generate
 bun run db:migrate
 ```
 
 5. Run the development server:
+
 ```bash
 bun run dev
 ```
@@ -100,6 +106,7 @@ bun run dev
 ## API Endpoints
 
 - `POST /api/chat` - AI chat endpoint with tool calling
+- `GET /api/getCalendarEvents` - For Getting Events.
 - `GET /api/auth/[...all]` - Authentication endpoints
 
 ## AI Tools
@@ -134,6 +141,7 @@ The AI has access to these calendar tools:
 ### Adding New AI Tools
 
 1. Define the tool in `lib/ai-tools.ts`:
+
 ```typescript
 {
   name: 'new_tool',
